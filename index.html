@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+    <div class="header">
+        <img src="./logo-header.png">
+        <a>home</a>
+        <a>nossos serviços</a>
+        <a>fale conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./logo.png" alt="logo do Mario" class="logo-mario">
+            <p>Acabaram os seus problemas com vazamento, Chame os Mario bros que eles resolvem!!!</p>
+            <p>Fazemos manutenção e conserto no seu sistema Hidraúlico, entre em contato conosco agora mesmo!!!!
+                Os irmãos Mario Chegaram, seus Problemas acabaram!!!</p>
+
+            <button onclick="mostrarform()">ENTRE EM CONTATO</button>
+
+        </div>
+        <div>
+            <img src="./mario e luigi.png" alt="logo mario e luigi" class="logo-mario-luigi">
+        </div>
+
+    </div>
+    <div class="caixa-video">
+        <video src="./video (1).mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+
+    <a href="https://api.whatsapp.com/send?phone=5512982563607&text=ol%C3%A1,%20entre%20em%20contato"
+        class="link-de-whatsapp">
+        <img src="./whatsapp.png" alt="link do whatsapp">
+    </a>
+
+
+
+    <form class="formulário-fale-conosco" action="https://formcarry.com/s/FI-YSAwlH9h" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite o seu problema aqui!!!" name="dúvida"></textarea>
+
+        <Button type="submit">Pedir Orçamento</Button>
+
+    </form>
+
+</body>
+<script src="myscript.js"></script>
+
+</html>
